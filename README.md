@@ -8,6 +8,7 @@
 - Request body validation with Yup
 - Git hooks with Husky
 - Code formatter with Prettier
+- Auto reload with Nodemon
 
 ## Requirements
 - Node 8.x.x
