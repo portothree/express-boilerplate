@@ -9,3 +9,24 @@
 - Git hooks with Husky
 - Code formatter with Prettier
 
+## Requirements
+- Node 8.x.x
+- NPM 6.x.x
+
+## Getting started
+
+Clone thre repository
+```
+git clone https://github.com/portothree/qart-express-boilerplate
+```
+
+Install dependencies:
+```
+npm install
+```
+
+Set environment variables
+```
+cp .env.example .env
+```
+
