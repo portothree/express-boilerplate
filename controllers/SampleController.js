@@ -1,4 +1,4 @@
 const createError = require('http-errors');
-const Measurement = require('../models/Measurement');
+const Sample = require('../models/Sample');
 
 module.exports = {};

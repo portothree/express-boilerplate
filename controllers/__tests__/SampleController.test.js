@@ -1,10 +1,10 @@
 const cases = require('jest-in-case');
 const faker = require('faker');
-const MeasurementController = require('../MeasurementController');
-const mockedUser = require('../../models/User');
+const SampleController = require('../SampleController');
+const mockedSample = require('../../models/Sample');
 const generate = require('../../utils/generate');
 
-jest.mock('../../models/Measurement', () => {
+jest.mock('../../models/Sample', () => {
 	const impl = {
 		findOne: jest.fn(() => impl),
 		select: jest.fn(() => impl),
@@ -18,6 +18,6 @@ beforeEach(() => {
 	jest.clearAllMocks();
 });
 
-describe('MeasurementController', () => {
+describe('SampleController', () => {
 	test.todo('getMeasurements');
 });
