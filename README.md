@@ -2,6 +2,7 @@
 
 ## Features
 - Sentry for error monitoring
+- Helmet to add various HTTP security headers
 - Loggin with Morgan
 - Unit tests with Jest
 - Integration tests with Axios and Jest
